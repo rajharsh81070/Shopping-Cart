@@ -135,6 +135,7 @@ class App extends Component {
     this.removeWholeItem = (id) => {
       const updatedItems = this.state.items.filter((item) => {
         if (item.qty > 0 && item.id === id) {
+          toast.success('Whole Item Removed!!');
           this.setState({
             totalPrice: this.state.totalPrice - item.price * item.qty,
             totalQty: this.state.totalQty - item.qty,
