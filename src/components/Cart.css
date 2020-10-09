@@ -1,0 +1,11 @@
+.body {
+  margin-top: 13px;
+  box-shadow: 2px 3px 4px 4px #ccc;
+  border: 2px #eee;
+  box-sizing: content-box;
+  height: auto;
+  width: 300px;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
